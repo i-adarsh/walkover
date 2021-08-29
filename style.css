@@ -1,0 +1,95 @@
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    height: 600px;
+    background-color: yellow;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+    padding: 1em;
+    width: 28%;
+}
+
+.box1,
+.box2,
+.box3 {
+    background-color: aqua;
+    margin: .3em;
+}
+
+.box1,
+.box2 {
+    width: 33%;
+    height: 40%;
+}
+
+.box1 {
+    margin-left: 0px;
+}
+
+.box2 {
+    margin-right: 0px;
+}
+
+.box3 {
+    width: 95%;
+    height: 50%;
+    margin: .3em;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.box1 {
+    margin-left: 0px;
+}
+
+.box2 {
+    margin-left: 6em;
+}
+
+.box21 {
+    background-color: aqua;
+    width: 31%;
+    height: 90%;
+    margin: 1em;
+    padding: 1em;
+}
+
+.box31,
+.box34 {
+    background-color: aqua;
+}
+
+.box31,
+.box34 {
+    width: 30%;
+    height: 40%;
+    margin: 1em;
+    padding: 1em;
+}
+
+.box34 {
+    margin-left: 1em;
+}
+
+.box33,
+.box32 {
+    width: 30%;
+    height: 40%;
+    margin: 1em;
+    padding: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .box21 {
+        width: 92%;
+        height: 40%;
+    }
+    .container {
+        width: 92%;
+    }
+}
